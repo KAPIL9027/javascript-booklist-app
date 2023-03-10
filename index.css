@@ -1,0 +1,93 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.book {
+    color: skyblue;
+}
+
+#open-book {
+    width: 4rem;
+    height: 4rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.booklist {
+    flex-direction: column;
+    min-width: 50%;
+    height: 100%;
+}
+
+.title {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.label {
+    
+    display: block;
+    margin: 0.2rem 0;
+}
+
+.text {
+    width: 100%;
+    height: 2rem;
+    border: 2px solid skyblue;
+}
+
+.form {
+    width: 100%;
+}
+.form-field {
+    margin: 0.7rem 0;
+}
+.submit-btn {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0.8rem 0;
+    text-align: center;
+    background-color: rgb(0, 173, 241);
+    border: none;
+    color: white;
+    transition: color 0.6s ease-in, border 0.6s ease-in;
+}
+
+.submit-btn:hover {
+color:rgb(0, 173, 241);
+background-color: white;
+border:1px solid rgb(0, 173, 241);
+}
+
+th {
+    padding: 1rem 5rem;
+    font-size: 1.5rem;
+    border: 1px solid skyblue;
+    color: rgb(17, 99, 132);
+}
+td {
+    padding: 1rem 5rem;
+    font-size: 1.5rem;
+    border: 1px solid rgb(105, 185, 217);
+    color:rgb(147, 214, 241)
+}
+   
+
+
+
+
+
+
