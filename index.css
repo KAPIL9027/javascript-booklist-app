@@ -74,15 +74,42 @@ border:1px solid rgb(0, 173, 241);
 
 th {
     padding: 1rem 5rem;
-    font-size: 1.5rem;
-    border: 1px solid skyblue;
-    color: rgb(17, 99, 132);
+    font-size: 1.25rem;
 }
 td {
     padding: 1rem 5rem;
-    font-size: 1.5rem;
-    border: 1px solid rgb(105, 185, 217);
-    color:rgb(147, 214, 241)
+    font-size: 1.25rem;
+}
+
+.del {
+    background-color: white;
+}
+tr:nth-child(2n){
+    background-color: lightgray;
+}
+
+.delete-btn {
+    text-decoration: none;
+    color:red;
+}
+
+.delete-btn:hover{
+    color:brown;
+}
+
+.alert {
+    width: 100%;
+    height: 2rem;
+    color: white; 
+    text-align: center;
+}
+
+.alert.alert-danger {
+    background-color: red;
+}
+
+.alert.alert-success {
+    background-color: green;
 }
    
 
